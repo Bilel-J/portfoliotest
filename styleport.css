@@ -1,0 +1,37 @@
+nav.menu-nav ul li.btn{
+    display: inline-block; /*sert a mettre sur la meme ligne*/
+    list-style-type: none; /*sert a retirer les "puce" de la liste*/
+ }
+
+nav.menu-nav ul li.btn a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10 px;  
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;
+    transition: 1.0s all;
+}
+
+/*footer.Bas {
+    height: 200px;
+    position:fixed;
+    bottom:0;
+    left:0; 
+}
+image {
+    width: auto; 
+    max-height: 100%; 
+}*/
+
+
+#footer { 
+    position: fixed; /* Ou absolute  */
+    bottom: 0px;
+    height: auto;    
+    width: max-content;    
+    background-image: url(imagePort\Footer1280.png);
+}
