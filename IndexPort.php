@@ -8,10 +8,10 @@ if(!isset($_GET['pg'])){
     // pas sur l'accueil
     switch($_GET['pg']){
         case "cv":
-            include_once "#";
+            include_once "CvPort.html";
             break;
         case "tuto":
-            include_once "#";
+            include_once "TutorielsPort.html";
             break;
         case "Contact":
             include_once "ContactPort.html";
