@@ -29,7 +29,7 @@ nav.menu-nav ul li.btn a{
                 /*line-height: 40px;*/  /* si line-height=height alors le texte est centré verticalement si le texte est sur une ligne */
                 padding: 20px 0;
                 margin: 30px 0;
-                border-radius: 20px;            /* rayon arrondi de la bordure */
+                border-radius: 23%;            /* rayon arrondi de la bordure */
                 background-color: black;     /* couleur de fond du lien */
                 color: white;                  /* couleur du texte du lien */
                 font-weight: bold;          /* texte en gras */
@@ -54,11 +54,39 @@ image {
     max-height: 100%; 
 }*/
 
-
+/*
 #footer { 
-    position: fixed; /* Ou absolute  */
+    position: fixed; (/* Ou absolute  )
     bottom: 0px;
     height: auto;    
     width: max-content;    
     background-image: url(imagePort\Footer1280.png);
 }
+*/
+
+/*
+choisir max 4 typo 
+couleur noir et blanc 
+veilleur a gardé un style indentique sur chaque page
+retiré la photo du footer 
+fixé la banniere 
+change le logo pour un logo en noir et blanc 
+rajouté le logo au centre de la banniere ou dans le coin superieure gauche
+transformé le logo en "boutton mode sombre"
+liste de site intéressent pour le web dans la section lien 
+
+ 
+*/
+
+#titreprincipal{
+    display: block;
+    margin: 0 auto;
+    width: 13%;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid rgb(13, 13, 82);
+    border-radius: 20px;
+    color: white;
+}
+
