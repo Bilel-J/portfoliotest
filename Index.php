@@ -2,11 +2,11 @@
 
 require_once "config.php"; // configuration
         
-if(!isset($_GET['pg'])){
+if(!isset($_GET['page'])){
     include_once "AcceuilPort.php";
 }else{
     // pas sur l'accueil
-    switch($_GET['pg']){
+    switch($_GET['page']){
         case "cv":
            // include_once "CvPort.html";
            include_once "CvPort.php";

@@ -7,10 +7,14 @@
     <title>Liens</title>
 </head>
 <body>
+<?php include_once "Menu.php"; ?> 
     <h1 id="titreprincipal">Titre</h1>
-    <?php
-        include_once "Menu.php";
-   ?>
+    <a href="https://www.youtube.com/c/grafikart">Grafikart</a>
+    <a href="https://www.youtube.com/c/Formationvid%C3%A9o8">Formationvidéo</a>
+    <a href="http://phptester.net/">phptester</a>
+    <a href="https://playcode.io/">playcode</a>
+    <a href="https://www.php.net/">php.net</a>
+    <a href="https://developer.mozilla.org/en-US/">MDN</a>
     <p id="CR">&copy; JB</p> 
 </body>
 </html>

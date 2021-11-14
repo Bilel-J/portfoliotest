@@ -7,10 +7,8 @@
     <title>Galeries</title>
 </head>
 <body>
-    <h1 id="titreprincipal">Titre</h1>
-    <?php
-        include_once "Menu.php";
-   ?>
+<?php include_once "Menu.php"; ?> 
+    <h1 id="titreprincipal">Titre</h1> 
     <p id="CR">&copy; JB</p>
 </body>
 </html>
