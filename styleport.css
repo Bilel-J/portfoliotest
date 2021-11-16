@@ -109,5 +109,13 @@ liste de site intéressent pour le web dans la section lien
 #CR{
     margin-left: 50vw;
     margin-right: 50vw;
+    margin-bottom: 0%;
 }
+
+.lien{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
 

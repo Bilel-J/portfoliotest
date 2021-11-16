@@ -7,7 +7,7 @@
     <title>CV</title>
 </head>
 <body>
-<?php include_once "Menu.php"; ?> 
+<?php include_once "Menu.php"; ?>  
     <h1 id="titreprincipal">Curriculum Vitae</h1>
     <h2>Cette page est en cours de création</h2>
     <p>Vous y retrouverez bientôt mon CV.</p>

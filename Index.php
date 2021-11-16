@@ -3,7 +3,7 @@
 require_once "config.php"; // configuration
         
 if(!isset($_GET['page'])){
-    include_once "AcceuilPort.php";
+    include_once "AccueilPort.php";
 }else{
     // pas sur l'accueil
     switch($_GET['page']){
@@ -26,7 +26,10 @@ if(!isset($_GET['page'])){
         case "Liens":
            // include_once "LiensPort.html";
             include_once "LiensPort.php";
-            break;     
+            break;
+        case "Login":
+            include_once "loginPort.php";
+            break;         
         default:    
             include_once "AcceuilPort.php";      
     }
