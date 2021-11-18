@@ -29,6 +29,7 @@
     </p>
     <p>
         <a href="https://www.youtube.com/watch?v=X92tSZEG90Y" target="_blank">Vidéo 2</a>
+        <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
         -Dans ce tutoriel la personne nous détaille chacune des étapes il va légèrement plus loin dans ses exemples de plus il nous montre des erreurs à éviter en tant que débutant.
     </p>
     <h3>Conclusion</h3>

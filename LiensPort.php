@@ -15,6 +15,7 @@
     <a class="lien" href="https://playcode.io/" target="_blank">playcode</a>
     <a class="lien" href="https://www.php.net/" target="_blank">php.net</a>
     <a class="lien" href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a>
+    <a class="lien" href="https://icones8.fr/pricing" target="_blank">icones8</a>
     <p id="CR">&copy; JB</p> 
 </body>
 </html>

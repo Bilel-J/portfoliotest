@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="galerie.css">
+    <!-- <link rel="stylesheet" href="galerie.css"> -->
     <script type="texte/javascript" src="galerie.js"></script>
     <link rel="icon" type="image/x-icon" href="imagePort\iconPort.png" />
     <title>Galeries</title>
