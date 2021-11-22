@@ -39,7 +39,7 @@ nav.menu-nav ul li.btn a{
 }
 nav.menu-nav ul li.btn:hover a{
     color: midnightblue;
-    background-color: white;
+    background-color: #67BE4B;
     transition: 1.0s all;
 } 
 
@@ -78,6 +78,23 @@ liste de site intéressent pour le web dans la section lien
  
 */
 
+/*
+@media all and (max-width:480px){
+        
+}
+
+@media  (min-width:480px) and (max-width:780px) {
+    
+}
+
+@media (min-width:781px) and (max-width:979px) {
+    
+}*/
+
+body{
+    background: #67BE4B;
+}
+
 #titreprincipal{
     display: block;
     margin: 0 auto;
@@ -90,14 +107,19 @@ liste de site intéressent pour le web dans la section lien
     border-radius: 20px;
 }
 
+@media screen {
+    img{
+        max-width: 100%;
+        width: 70rem;
+    }
+}
 .content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1em ;
     text-align: justify;
-
 }
-
+/*
 .container{
     box-sizing: border-box;
     width: 100%;
@@ -105,6 +127,7 @@ liste de site intéressent pour le web dans la section lien
     margin-left: 50vw;
     margin-right: 50vw;
 }
+*/
 
 #CR{
     margin-left: 50vw;
@@ -118,4 +141,46 @@ liste de site intéressent pour le web dans la section lien
     text-align: center;
 }
 
+/*#esc{
+    margin-top: 1vh;
+}*/
 
+.clien{
+    display: block;
+    margin-top: 1vh;
+    /* gap: 1vh; ne sert que si flex grid ou column */
+    border: solid ;
+    border-radius: 1vh;
+    border-color: rgb(1, 1, 54);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: auto;
+    font-size: xx-large;
+    font-family: snell roundhan, cursive;
+}
+
+.texteAccueil{
+    font-size: xx-large;
+    font-family: snell roundhan, cursive;
+}
+
+.em {
+    display: block;
+}
+
+.tutor{
+    font-size: large;
+    font-family: snell roundhan, cursive;
+}
+
+#contact{
+    font-size: xx-large;
+    font-family: snell roundhan, cursive;
+}
+
+.row{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top: 1vh;
+    row-gap: 1vw;
+}

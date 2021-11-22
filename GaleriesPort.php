@@ -2,8 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="galerie.css"> -->
-    <script type="texte/javascript" src="galerie.js"></script>
+    <link rel="stylesheet" href="styleport.css">
     <link rel="icon" type="image/x-icon" href="imagePort\iconPort.png" />
     <title>Galeries</title>
 </head>
@@ -14,16 +13,16 @@
      <!-- The grid: four columns -->
 <div class="row">
   <div class="column">
-    <img src="imagePort\img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+    <img src="imagePort\img_nature.jpg" alt="Nature">
   </div>
   <div class="column">
-    <img src="imagePort\img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+    <img src="imagePort\img_snow.jpg" alt="Snow">
   </div>
   <div class="column">
-    <img src="imagePort\img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+    <img src="imagePort\img_mountains.jpg" alt="Mountains">
   </div>
   <div class="column">
-    <img src="imagePort\img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+    <img src="imagePort\img_lights.jpg" alt="Lights">
   </div>
 </div>
 
