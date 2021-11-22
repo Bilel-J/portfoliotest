@@ -12,16 +12,16 @@
     <h1 id="titreprincipal">Titre</h1> 
      <!-- The grid: four columns -->
 <div class="row">
-  <div class="column">
+  <div class="column gal1">
     <img src="imagePort\img_nature.jpg" alt="Nature">
   </div>
-  <div class="column">
+  <div class="column gal2">
     <img src="imagePort\img_snow.jpg" alt="Snow">
   </div>
-  <div class="column">
+  <div class="column gal3">
     <img src="imagePort\img_mountains.jpg" alt="Mountains">
   </div>
-  <div class="column">
+  <div class="column gal4">
     <img src="imagePort\img_lights.jpg" alt="Lights">
   </div>
 </div>
