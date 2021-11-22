@@ -1,2 +1,2 @@
 <?php 
-define ("MAIL","");
+define ("MAIL","test@testmail.test");

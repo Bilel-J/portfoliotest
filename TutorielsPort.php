@@ -31,12 +31,13 @@
     </ol>
     <h3>Cependant</h3>
     <p>
-        <a href="https://www.youtube.com/watch?v=eBYpxgX7HPA" target="_blank">Vidéo 1</a>
+        <a href="https://www.youtube.com/watch?v=eBYpxgX7HPA" target="_blank">Vidéo 1</a><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eBYpxgX7HPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         -Dans ce tutoriel la personne n'hésite pas faire de l'humour et y intégrer des animations plutôt sympathiques ainsi que des bandes-sons évocatrices propres à certaines situations ce qui rend sa vidéo plus ludique.
     </p>
     <p>
-        <a href="https://www.youtube.com/watch?v=X92tSZEG90Y" target="_blank">Vidéo 2</a>
-        <!-- <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+        <a href="https://www.youtube.com/watch?v=X92tSZEG90Y" target="_blank">Vidéo 2</a><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X92tSZEG90Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         -Dans ce tutoriel la personne nous détaille chacune des étapes il va légèrement plus loin dans ses exemples de plus il nous montre des erreurs à éviter en tant que débutant.
     </p>
     <h3>Conclusion</h3>

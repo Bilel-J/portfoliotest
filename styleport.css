@@ -78,18 +78,8 @@ liste de site intéressent pour le web dans la section lien
  
 */
 
-/*
-@media all and (max-width:480px){
-        
-}
 
-@media  (min-width:480px) and (max-width:780px) {
-    
-}
 
-@media (min-width:781px) and (max-width:979px) {
-    
-}*/
 
 body{
     background: #67BE4B;
@@ -183,4 +173,12 @@ body{
     grid-template-columns:1fr 1fr 1fr;
     margin-top: 1vh;
     row-gap: 1vw;
+}
+
+@media screen and (min-width:801px) and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:800px) {
+    /*Tu es en retard Bilel*/
 }

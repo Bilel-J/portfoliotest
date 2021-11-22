@@ -1,6 +1,6 @@
 <?php
 ?>
- <nav class="menu-nav">
+<nav class="menu-nav">
         <ul>
             <!-- <li class="btn"><a href="./MenuPort.php">Acceuil</a></li> -->
             <li class="btn"><a href="./">Accueil</a></li>
@@ -14,4 +14,5 @@
             <li class="btn"><a href=""></a></li>
             <li class="btn"><a href=""></a></li> -->
         </ul>
-    </nav>
+<!-- <img id="hamburger" src="imagePort\Hamburger_icon.svg.png" onclick="toggle();" /> -->
+   </nav>

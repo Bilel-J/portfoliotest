@@ -26,16 +26,11 @@
   </div>
 </div>
 
-<!-- The expanding image container -->
+
 <div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
+<!--  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
+  <div id="imgtext"></div> -->
 </div>
     <p id="CR">&copy; JB</p>
 </body>
