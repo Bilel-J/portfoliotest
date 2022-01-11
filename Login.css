@@ -1,5 +1,5 @@
 body{
-    background: #67BE4B;
+    background: lightslategrey;
 }
 #container{
     width:400px;
@@ -30,8 +30,8 @@ input[type=text], input[type=password] {
 }
 
 input[type=submit] {
-    background-color: #53af57;
-    color: white;
+    background-color: lightslategrey;
+    color: coral;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -39,9 +39,9 @@ input[type=submit] {
     width: 100%;
 }
 input[type=submit]:hover {
-    background-color: rgb(0, 0, 0);
-    color: #53af57;
-    border: 1px solid #53af57;
+    background-color: lightslategrey(0, 0, 0);
+    color: coral;
+    border: 1px solid coral;
 }
 
 nav.menu-nav {
@@ -64,15 +64,15 @@ nav.menu-nav ul li.btn a{
                 padding: 20px 0;
                 margin: 30px 0;
                 border-radius: 23%;            /* rayon arrondi de la bordure */
-                background-color: black;     /* couleur de fond du lien */
-                color: white;                  /* couleur du texte du lien */
+                background-color: coral;     /* couleur de fond du lien */
+                color: lightslategrey;                  /* couleur du texte du lien */
                 font-weight: bold;          /* texte en gras */
                 font-size: 20px;            /* taille du texte */
                 text-transform: capitalize;     /* 1ère lettre = majuscule, les autres = minuscules */
                 text-decoration: none;
 }
 nav.menu-nav ul li.btn:hover a{
-    color: midnightblue;
-    background-color: #67BE4B;
+    color: coral;
+    background-color: lightslategrey;
     transition: 1.0s all;
 }

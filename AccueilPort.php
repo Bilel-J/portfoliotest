@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="styleport.css">
+    <link rel="stylesheet" href="new.css">
     <link rel="icon" type="image/x-icon" href="imagePort\iconPort.png" />
 </head>
 <body class="em">
-    <header>
-        <?php include_once "Menu.php"; ?>  
-        <h1 id="titreprincipal">Bienvenue</h1> 
-    </header>
+    <header id="nav-bar"> <?php include_once "Menu.php"; ?> </header>
     <div class="content container">
     <img src="imagePort\external-content.duckduckgo.com.jpg" alt="ImageAccueil">
     <p class="texteAccueil">
@@ -25,6 +22,6 @@
             <img src="imagePort\Footer1280.png" alt="Footer">
         </div>
     </footer> -->
-    <p id="CR">&copy; JB</p>
+    <footer id="footer"><p id="CR">&copy; JB</p></footer>
 </body>
 </html>

@@ -15,4 +15,17 @@
             <li class="btn"><a href=""></a></li> -->
         </ul>
 <!-- <img id="hamburger" src="imagePort\Hamburger_icon.svg.png" onclick="toggle();" /> -->
+<button class="burger">
+      <span class="bar">&#9776</span>  
+    </button>   
    </nav>
+<script>
+       function Menu () {  
+  const nav = document.querySelector('.nav');
+  const burger = document.querySelector('.burger');
+  burger.addEventListener('click', (e) => {    
+    nav.classList.toggle('show-nav');
+  });    
+}
+Menu();
+   </script>
