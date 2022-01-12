@@ -8,9 +8,9 @@
 </head>
 <body>
 <?php include_once "Menu.php"; ?>  
-<div id="galerie">
+<main id="galerie">
 <!-- <?php //include_once "Menu.php"; ?> -->
-    <!-- <h1 id="titreprincipal">Titre</h1> -->
+    <h1 id="titreprincipal">Galeries</h1>
      <!-- The grid: four columns -->
 <div class="row">
   <div class="column gal1">
@@ -27,12 +27,9 @@
   </div>
 </div>
 
-<div class="container">
-<!--  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div> -->
-</div>
-</div>
+</main>
+<footer>
     <p id="CR">&copy; JB</p>
+</footer>
 </body>
 </html>

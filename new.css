@@ -1,176 +1,357 @@
-html *{
-    box-sizing : border-box;
-    margin: 0;
-    padding: 0;
-    background-color: lightslategrey;   
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: lightslategrey;
 }
+
+/*body*/
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+main {
+  width: 90%;
+
+}
+
 /*Menu*/
 nav.menu-nav {
-    text-align: center;
+  text-align: center;
+  width: 100%;
+  background-color: lightslategrey;
 }
 
-nav.menu-nav ul li.btn{
-    display: inline-block; /*sert a mettre sur la meme ligne*/
-    list-style-type: none; /*sert a retirer les "puce" de la liste*/
- }
-nav.menu-nav ul li.btn a{
-    border: 2px solid black;    /* bordures autour du lien */
-    display: block;         /* les liens "inline" deviennent des "block" dimensionnables */
-    width: 200px;       /* largeur 200px */
-    /*height: 40px;*/       /* hauteur 40px */
-    text-align: center;
-    /* vertical-align: middle;  ne fonctionne pas avec display:block */
-    /*line-height: 40px;*/  /* si line-height=height alors le texte est centré verticalement si le texte est sur une ligne */
-    padding: 20px 0;
-    margin: 30px 0;
-    border-radius: 23%;            /* rayon arrondi de la bordure */
-    background-color: coral;     /* couleur de fond du lien */
-    color: lightskyblue;                  /* couleur du texte du lien */
-    font-weight: bold;          /* texte en gras */
-    font-size: 20px;            /* taille du texte */
-    text-transform: capitalize;     /* 1ère lettre = majuscule, les autres = minuscules */
-    text-decoration: none;
-}
-nav.menu-nav ul li.btn:hover a{
-color: coral;
-background-color: lightskyblue;
-transition: 1.0s all;
-} 
-/*page d'accueil*/
-#nav-bar{
-    width: 100%;
-    background-color: lightslategrey;
+nav.menu-nav ul li.btn {
+  display: inline-block;
+  /*sert a mettre sur la meme ligne*/
+  list-style-type: none;
+  /*sert a retirer les "puce" de la liste*/
 }
 
-.content{
-    display: flex;
-    background-color: coral;
+nav.menu-nav ul li.btn a {
+  border: 2px solid black;
+  /* bordures autour du lien */
+  display: block;
+  /* les liens "inline" deviennent des "block" dimensionnables */
+  width: 200px;
+  /* largeur 200px */
+  /*height: 40px;*/
+  /* hauteur 40px */
+  text-align: center;
+  /* vertical-align: middle;  ne fonctionne pas avec display:block */
+  /*line-height: 40px;*/
+  /* si line-height=height alors le texte est centré verticalement si le texte est sur une ligne */
+  padding: 20px 0;
+  margin: 30px 0;
+  border-radius: 23%;
+  /* rayon arrondi de la bordure */
+  background-color: coral;
+  /* couleur de fond du lien */
+  color: lightslategrey;
+  /* couleur du texte du lien */
+  font-weight: bold;
+  /* texte en gras */
+  font-size: 20px;
+  /* taille du texte */
+  text-transform: capitalize;
+  /* 1ère lettre = majuscule, les autres = minuscules */
+  text-decoration: none;
 }
 
-.texteAccueil{
-    text-align: center;
-    margin: 10vh;
-    font-size: 3.5rem;
-    background-color: lightslategrey;
-    color: lightskyblue;
+nav.menu-nav ul li.btn:hover a {
+  color: coral;
+  background-color: lightslategrey;
+  transition: 1.0s all;
+}
+
+/*page d'accueil
+#nav-bar {
+  width: 100%;
+  background-color: lightslategrey;
+}*/
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: coral;
 
 }
+
+.content img {
+  display: block;
+  width: 640px;
+  height: auto;
+}
+
+.texteAccueil {
+  text-align: center;
+  margin: 5vh;
+  font-size: 1.5rem;
+  background-color: lightslategrey;
+  color: lightskyblue;
+
+}
+
+/*titre*/
+#titreprincipal {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  color: black;
+  background-color: none;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid rgb(13, 13, 82);
+  border-radius: 20px;
+}
+
 /*page tutoriel*/
-.tutobody{
-    display: block;
-    background-color: white;
+
+.tuto {
+  display: flex;
+  flex-direction: column;
+  border: 1rem;
+  border-color: black;
 }
 
-.tuto{
-    display: flex;
-    flex-direction: column; 
-    border: 1rem;
-    border-color: black;
+.tutor A {
+  background-color: coral;
 }
 
-.tutor A{
-    background-color: coral;
-}
 /*Galerie*/
-#galerie{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+/*#galerie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}*/
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1em;
+
 }
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+/*page de contact*/
+
+#contact {
+  width: 60%;
+  height: 70%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  height: 30px;
+  width: 75px;
+}
+
+#nom,
+#email,
+#message {
+  width: 300px;
+}
+
+#message {
+  margin-left: 75px;
+}
+
+#bouton {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: coral;
+}
+
+/*lien*/
+.lien {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.clien {
+  display: block;
+  margin-top: 1vh;
+  /* gap: 1vh; ne sert que si flex grid ou column */
+  border: solid;
+  border-radius: 20px;
+  border-color: rgb(1, 1, 54);
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  font-size: x-large;
+  font-family: snell roundhan, cursive;
+
+}
+
+.clien p {
+  word-break: break-word;
+}
+
+iframe {
+  float: left;
+}
+
+.tutor h2 {
+  padding: 10px 0;
+
+}
+
+.tutor p,
+.tutor ul {
+  font-size: 1.5rem;
+}
+
+.tutor ul {
+  margin-left: 30px;
+}
+
+.E p,
+.F p {
+  padding-left: 600px;
+}
+
 /*menuhamburger*/
 .burger {
-    display:none;
+  display: none;
+}
+
+/*medium device*/
+@media and (max-width:1480px) {}
+
+/*  Small device */
+@media screen and (max-width:767.98px) {
+  .navbar__links {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    height: calc(100vh - 65px);
+    position: absolute;
+    top: 65px;
+    right: 0;
+    background: blue;
+    transform: translateX(110%);
+    transition: all .5s ease-in-out;
   }
-  /*medium device*/
-  @media  and (max-width:1480px) {
-    
+
+  .menu-nav ul li.btn a {
+
+    width: 100vw;
+    transform: translateX(0);
   }
-  /*  Small device */
-  @media screen and (max-width:767.98px) {
-    .navbar__links { 
-      overflow:hidden;
-      display:flex;
-      flex-direction:column;
-      width:0;
-      height:calc(100vh - 65px);  
-      position:absolute;
-      top:65px;
-      right:0;     
-      background:blue;     
-      transform: translateX(110%);
-      transition: all .5s ease-in-out;
-    }
-    .menu-nav ul li.btn a { 
-      
-      width:100vw;    
-      transform: translateX(0);
-    } 
-    .menu-nav ul li.btn a {    
-      transform: translateX(101%);
-      transition: all .5s ease-in-out;
-    }
-    
-    .menu-nav ul li.btn a {        
-      transform: translateX(0);    
-    }   
-    .menu-nav ul li.btn a {
-      display:block;
-      padding:1rem;
-      font-size:1.6rem;
-      color:red;  
-      transition: all .4s ease-in-out;
-    }
-    .menu-nav ul li.btn a:hover {
-      padding-left:2rem;
-      letter-spacing:5px;
-    }
-    
-    /* Toggle menu */
-    .burger {
-      display:block;
-      position:relative;
-      padding:0;
-      width:45px;
-      height:45px;
-      border:none;
-      background:transparent;
-      cursor:pointer;
-    }
-    .bar {
-      display:block;    
-      width:45px;
-      height:4px;  
-      border-radius:3px;
-      background:bisque; 
-      transition: all .5s ease-in-out;   
-    }
-    .bar::before, .bar::after {
-      content:"";
-      width:45px;
-      height:4px;
-      position:absolute; 
-      left:0;  
-      background:blueviolet; 
-      border-radius:3px;    
-      transition: all .5s ease-in-out;
-    }
-    .bar::before {
-      transform:translateY(-12px)
-    }
-    .bar::after {
-      transform:translateY(12px)
-    }
-    .show-nav .bar {
-      width:0;
-      background:transparent;    
-    }
-    .show-nav .bar::before {
-      transform:rotate(45deg);
-    }
-    .show-nav .bar::after {
-      transform:rotate(-45deg);
-    }
-/*@media screen and (max-width : 1480px){
+
+  .menu-nav ul li.btn a {
+    transform: translateX(101%);
+    transition: all .5s ease-in-out;
+  }
+
+  .menu-nav ul li.btn a {
+    transform: translateX(0);
+  }
+
+  .menu-nav ul li.btn a {
+    display: block;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: red;
+    transition: all .4s ease-in-out;
+  }
+
+  .menu-nav ul li.btn a:hover {
+    padding-left: 2rem;
+    letter-spacing: 5px;
+  }
+
+  /* Toggle menu */
+  /*
+  .burger {
+    display: block;
+    position: relative;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 45px;
+    height: 4px;
+    border-radius: 3px;
+    background: bisque;
+    transition: all .5s ease-in-out;
+  }
+
+  .bar::before,
+  .bar::after {
+    content: "";
+    width: 45px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    background: blueviolet;
+    border-radius: 3px;
+    transition: all .5s ease-in-out;
+  }
+
+  .bar::before {
+    transform: translateY(-12px)
+  }
+
+  .bar::after {
+    transform: translateY(12px)
+  }
+
+  .show-nav .bar {
+    width: 0;
+    background: transparent;
+  }
+
+  .show-nav .bar::before {
+    transform: rotate(45deg);
+  }
+
+  .show-nav .bar::after {
+    transform: rotate(-45deg);
+  }
+*/
+  /* quand il n'y a pas de #wrap dans l'url (jenseign.com.com/page.html) 
+  #wrap:not(:target) {
+    transform: translate3d(-335px, 0, 0);
+    /* cache l'élément #wrap 
+  }
+
+   quand il y a un #wrap dans l'url (jenseign.com.com/page.html#wrap) 
+  #wrap:target {
+    transform: translate3d(0, 0, 0);
+     affiche l'élément 
+  }*/
+
+  /*@media screen and (max-width : 1480px){
     nav.menu-nav ul li.btn{
         overflow:hidden;
         display:flex;
@@ -195,11 +376,11 @@ transition: 1.0s all;
 }
 &#9776*/
 
-#footer {
+  #footer {
     width: 100%;
     background-color: lightslategrey;
     margin-top: 20px;
     position: fixed;
     bottom: 0;
     text-align: center;
-}
+  }

@@ -26,7 +26,7 @@ if (isset($_POST["nom"]) && isset($_POST["email"]) && isset($_POST["message"])){
     mail($to, $subject, $message,$header);
 
     }else{
-       echo "erreur: votre message n'a pas été envoyé, veuillez réessayer";
+       echo "erreur: votre message n'à pas été envoyé, veuillez réessayer";
     }
 
 }
@@ -36,27 +36,29 @@ if (isset($_POST["nom"]) && isset($_POST["email"]) && isset($_POST["message"])){
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="styleport.css">
-    <link rel="icon" type="image/x-icon" href="imagePort\iconPort.png" />
+    <link rel="stylesheet" href="new.css">
+    <link rel="icon" type="image/x-icon" href="imagePort\iconPort.png"/>
 </head>
 <body>
-
 <?php include_once "Menu.php"; ?>  
-
+<main>
     <h1 id="titreprincipal">Formulaire</h1>
     <form id="contact" method="post" action="">
-	<fieldset><legend>Vos coordonnées</legend>
-		<p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
-		<p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
-	</fieldset>
- 
-	<fieldset><legend>Votre message :</legend>
+	    <fieldset>
+            <legend>Vos coordonnées</legend>
+		        <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" placeholder="entrez votre nom"/></p>
+		        <p><label for="email">Email :</label><input type="text" id="email" name="email" placeholder="entrez votre email" /></p>
+	    </fieldset>
+	    <fieldset>
+            <legend>Votre message :</legend>
 	<!--	<p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" /></p> -->
-		<p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
-	</fieldset>
- 
-	<div style="text-align:center;"><input type="submit" value="Envoyer le formulaire !" /></div>
+		        <p><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
+	    </fieldset>
+	        <div style="text-align:center;"><input id="bouton" type="submit" value="Envoyer le formulaire !" /></div>
     </form>
+</main>
+<footer>
     <p id="CR">&copy; JB</p>
+</footer> 
 </body>
 </html>

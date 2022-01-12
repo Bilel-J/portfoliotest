@@ -1,5 +1,5 @@
-html *{
-    box-sizing : border-box;
+html * {
+    box-sizing: border-box;
 }
 
 
@@ -8,10 +8,12 @@ nav.menu-nav {
     text-align: center;
 }
 
-nav.menu-nav ul li.btn{
-    display: inline-block; /*sert a mettre sur la meme ligne*/
-    list-style-type: none; /*sert a retirer les "puces" de la liste*/
- }
+nav.menu-nav ul li.btn {
+    display: inline-block;
+    /*sert a mettre sur la meme ligne*/
+    list-style-type: none;
+    /*sert a retirer les "puces" de la liste*/
+}
 
 /* nav.menu-nav ul li.btn a{
     color: white;
@@ -25,29 +27,41 @@ nav.menu-nav ul li.btn:hover a{
     background-color: white;
     transition: 1.0s all;
 }  */
-nav.menu-nav ul li.btn a{
-                border: 2px solid black;    /* bordures autour du lien */
-                display: block;         /* les liens "inline" deviennent des "block" dimensionnables */
-                width: 200px;       /* largeur 200px */
-                /*height: 40px;*/       /* hauteur 40px */
-                text-align: center;
-                /* vertical-align: middle;  ne fonctionne pas avec display:block */
-                /*line-height: 40px;*/  /* si line-height=height alors le texte est centré verticalement si le texte est sur une ligne */
-                padding: 20px 0;
-                margin: 30px 0;
-                border-radius: 23%;            /* rayon arrondi de la bordure */
-                background-color: coral;     /* couleur de fond du lien */
-                color: lightslategrey;                  /* couleur du texte du lien */
-                font-weight: bold;          /* texte en gras */
-                font-size: 20px;            /* taille du texte */
-                text-transform: capitalize;     /* 1ère lettre = majuscule, les autres = minuscules */
-                text-decoration: none;
+nav.menu-nav ul li.btn a {
+    border: 2px solid black;
+    /* bordures autour du lien */
+    display: block;
+    /* les liens "inline" deviennent des "block" dimensionnables */
+    width: 200px;
+    /* largeur 200px */
+    /*height: 40px;*/
+    /* hauteur 40px */
+    text-align: center;
+    /* vertical-align: middle;  ne fonctionne pas avec display:block */
+    /*line-height: 40px;*/
+    /* si line-height=height alors le texte est centré verticalement si le texte est sur une ligne */
+    padding: 20px 0;
+    margin: 30px 0;
+    border-radius: 23%;
+    /* rayon arrondi de la bordure */
+    background-color: coral;
+    /* couleur de fond du lien */
+    color: lightslategrey;
+    /* couleur du texte du lien */
+    font-weight: bold;
+    /* texte en gras */
+    font-size: 20px;
+    /* taille du texte */
+    text-transform: capitalize;
+    /* 1ère lettre = majuscule, les autres = minuscules */
+    text-decoration: none;
 }
-nav.menu-nav ul li.btn:hover a{
+
+nav.menu-nav ul li.btn:hover a {
     color: coral;
     background-color: lightslategrey;
     transition: 1.0s all;
-} 
+}
 
 /*footer.Bas {
     height: 200px;
@@ -87,11 +101,11 @@ liste de site intéressent pour le web dans la section lien
 
 
 
-body{
+body {
     background: lightslategrey;
 }
 
-#titreprincipal{
+#titreprincipal {
     display: block;
     margin: 0 auto;
     width: 13%;
@@ -104,17 +118,19 @@ body{
 }
 
 @media screen {
-    img{
+    img {
         max-width: 100%;
         width: 70rem;
     }
 }
-.content{
+
+.content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1em ;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
     text-align: justify;
 }
+
 /*
 .container{
     box-sizing: border-box;
@@ -125,32 +141,45 @@ body{
 }
 */
 
-.gal1{
+.gal1 {
     display: block;
-    border:  solid whitesmoke 10px;
+    border: solid whitesmoke 10px;
 }
 
-#CR{
+#CR {
     margin-left: 50vw;
     margin-right: 50vw;
     margin-bottom: 0%;
 }
 
-.lien{
+/*lien*/
+.lien {
     display: block;
     text-decoration: none;
     text-align: center;
+}
+/*
+@media screen {
+    .lien {
+        font-size: smaller;
+    }
+
+    @media screen {
+        .lien {
+            font-size: x-small;
+        }
+    }
 }
 
 /*#esc{
     margin-top: 1vh;
 }*/
 
-.clien{
+.clien {
     display: block;
     margin-top: 1vh;
     /* gap: 1vh; ne sert que si flex grid ou column */
-    border: solid ;
+    border: solid;
     border-radius: 1vh;
     border-color: rgb(1, 1, 54);
     margin-left: 25%;
@@ -160,7 +189,7 @@ body{
     font-family: snell roundhan, cursive;
 }
 
-.texteAccueil{
+.texteAccueil {
     font-size: xx-large;
     font-family: snell roundhan, cursive;
 }
@@ -169,26 +198,24 @@ body{
     display: block;
 }
 
-.tutor{
+.tutor {
     font-size: large;
     font-family: snell roundhan, cursive;
 }
 
-#contact{
+#contact {
     font-size: xx-large;
     font-family: snell roundhan, cursive;
 }
 
-.row{
+.row {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 1vh;
     row-gap: 1vw;
 }
 
-@media screen and (min-width:801px) and (max-width:1280px) {
-
-}
+@media screen and (min-width:801px) and (max-width:1280px) {}
 
 @media screen and (max-width:800px) {
     /*Tu es en retard Bilel*/
